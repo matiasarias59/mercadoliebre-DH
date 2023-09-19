@@ -7,6 +7,7 @@
 body {
   background-color: #ebebeb;
   font-family: "Roboto", sans-serif;
+  
 }
 
 header {
@@ -156,9 +157,11 @@ main {
 }
 
 footer {
+  
   text-align: center;
   background-color: white;
   color: #666;
+  
 }
 .footer_card {
   margin: auto;
@@ -193,6 +196,7 @@ footer {
 
   width: 80vw;
   margin: auto;
+  margin-top: 8rem;
 }
 
 .form_register h1 {
@@ -281,6 +285,7 @@ footer {
 
   width: 80vw;
   margin: auto;
+  
 }
 
 .form_login h1 {
@@ -358,12 +363,18 @@ footer {
   .form_register,
   .form_login {
     max-width: 20rem;
+    margin-top: 10rem;
   }
 }
 
 @media (min-width: 769px) {
   nav ul li {
     margin-right: 2rem;
+  }
+
+  .form_register,
+  .form_login {
+    margin-top: 15rem;
   }
 
   .product_card {
