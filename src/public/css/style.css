@@ -5,9 +5,11 @@
 }
 
 body {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
   background-color: #ebebeb;
   font-family: "Roboto", sans-serif;
-  
 }
 
 header {
@@ -17,7 +19,6 @@ header {
   width: 100vw;
   background-color: #eac926;
   padding-bottom: 0.5rem;
-
 }
 
 .section_head {
@@ -157,11 +158,9 @@ main {
 }
 
 footer {
-  
   text-align: center;
   background-color: white;
   color: #666;
-  
 }
 .footer_card {
   margin: auto;
@@ -255,11 +254,10 @@ footer {
   border-radius: 0.25rem;
   transition: background-color 450ms;
 }
-.form_register_btn_submit:hover{
-  background-color: #0022AA;
+.form_register_btn_submit:hover {
+  background-color: #0022aa;
   cursor: pointer;
 }
-
 
 .form_register_btn_reset {
   color: #1259c3;
@@ -270,7 +268,7 @@ footer {
   transition: font-weight 450ms;
 }
 
-.form_register_btn_reset:hover{
+.form_register_btn_reset:hover {
   font-weight: 600;
   cursor: pointer;
 }
@@ -285,7 +283,7 @@ footer {
 
   width: 80vw;
   margin: auto;
-  
+  margin-top: 8rem;
 }
 
 .form_login h1 {
@@ -313,8 +311,8 @@ footer {
   transition: background-color 450ms;
 }
 
-.form_login_btn_submit:hover{
-  background-color: #0022AA;
+.form_login_btn_submit:hover {
+  background-color: #0022aa;
   cursor: pointer;
 }
 
@@ -382,9 +380,8 @@ footer {
     width: 20vw;
     box-shadow: none;
     transition: box-shadow 1s;
-    
   }
-  
+
   .product_card:hover {
     box-shadow: 0px 0px 10px rgb(100, 100, 100);
     /* max-height: 400px; */
@@ -396,34 +393,33 @@ footer {
     opacity: 0%;
     transition: opacity, max-height 450ms;
   }
-  
+
   .product_card:hover .product_description {
     max-height: 3rem;
     opacity: 100%;
   }
 
-  .product_delivery_icon{
+  .product_delivery_icon {
     transition: transform 450ms;
   }
-  .product_delivery_icon:hover{
+  .product_delivery_icon:hover {
     transform: rotate(-90deg);
   }
 
-  .footer_cards_container{
+  .footer_cards_container {
     display: flex;
     padding: 1rem;
   }
-  .footer_card{
+  .footer_card {
     margin: 1rem;
   }
 
-  .footer_card_icon{
+  .footer_card_icon {
     color: #666;
     transition: color 300ms;
   }
 
-  .footer_card_icon:hover{
-    color:#1259c3;
+  .footer_card_icon:hover {
+    color: #1259c3;
   }
- 
 }
